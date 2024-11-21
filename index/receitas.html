@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/formatos.css">
+    <link rel="stylesheet" href="/style/receitas.css">
+    <title>Receitas</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <ul>
+                <ol>
+                    <button onclick="navegar('home.html')" id="homeButton" class="btnheader">Home</button>
+                    <button onclick="navegar('receitas.html')" id="receitasButton" class="btnheader">Receitas</button>
+                    <button onclick="navegar('cadastro.html')" id="cadastroButton" class="btnheader">Cadastrar</button>
+                </ol>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="title">
+            <img src="/img/logotipo.jpg" alt="" class="imagem">
+            <h1>Receitas da Tia Jurema</h1>
+        </div>
+        <div class="titulo">
+            <h2>Receitas</h2>
+        </div>
+        <hr class="separator">
+        <div class="section">
+            <div class="cardapio">
+                <div class="item">
+                    <div class="orientation">
+                        <div class="tituloItem">
+                            <h3>Bolo de Milho Simples</h3>
+                        </div>
+                        <div>
+                            <img src="/img/bolodemilho.jpg" alt="Arroz de Couve Flor" class="imagem">
+                        </div>
+                        <div class="lista">
+                            <ul>
+                                <li>3 espigas de milho</li>
+                                <li>3 ovos inteiros</li>
+                                <li>1 xícara de chá de açúcar</li>
+                                <li>100 ml de leite de coco ou leite integral de vaca</li>
+                                <li>100 ml de óleo</li>
+                                <li>1 xícara de chá de fubá mimoso</li>
+                                <li>1 colher de sopa de fermento químico em pó</li>
+                                <li>Palhas de milho (opcional)</li>
+                            </ul>
+                        </div>
+                        <hr class="quebraLinha">
+                        <div class="rodpeItem">
+                            <div class="titlePreparo">
+                                <h4>Modo de Preparo</h4>
+                                <button onclick="toggle1()" class="btnReceita">Abrir</button>
+                            </div>
+                            <div class="preparacao" id="preparacao-1">
+                                <ol>
+                                    <li>
+                                        Reúna os ingredientes para fazer o bolo de milho simples. Já deixe seu forno pré-aquecendo a 200ºC.
+                                    </li>
+                                    <li>
+                                        Descasque as espigas de milho, empilhe a palha e corte o excesso da base se elas não couberem na forma. Lave as folhas em água corrente e ferva-a em uma panela com água no fogo alto;
+                                    </li>
+                                    <li>
+                                        Enquanto isso, corte os grãos das espigas de milho com uma faca. Reserve;
+                                    </li>
+                                    <li>
+                                        Quebre os ovos separadamente e, se eles estiverem bons, adicione-os no liquidificador e junte o açúcar, o leite de coco, o óleo e o milho. Bata por cerca de 1 minuto, até a mistura ficar homogênea;
+                                    </li>
+                                    <li>
+                                        Transfira o líquido para um recipiente e peneire o fubá. Misture com o fouet. Por último, adicione o fermento e mexa delicadamente, apenas para incorporar na massa. Evite misturar além do necessário, para não passar do ponto da massa;
+                                    </li>
+                                    <li>
+                                        Transfira o líquido para um recipiente e peneire o fubá. Misture com o fouet. Por último, adicione o fermento e mexa delicadamente, apenas para incorporar na massa. Evite misturar além do necessário, para não passar do ponto da massa;
+                                    </li>
+                                    <li>
+                                        Retire as palhas de milho da água e escorra o excesso. Em uma forma média redonda, untada e enfarinhada, coloque as palhas na vertical, forrando toda a base para facilitar desenformar;
+                                    </li>
+                                    <li>
+                                        Despeje a massa do bolo na forma com a palha e leve para assar no forno preaquecido a 200ºC por cerca de 40 minutos. Após esse tempo, espete um palito no bolo e, se ele sair limpo, está assado;
+                                    </li>
+                                    <li>
+                                        Aguarde ele ficar morno e desenforme com o auxílio de uma espátula, soltando as palhas da forma;
+                                    </li>
+                                    <li>
+                                        Sirva o bolo de milho simples com uma xícara de café e aproveite um delicioso café da manhã ou da tarde. Bom apetite!
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="orientation">
+                        <div class="tituloItem">
+                            <h3>Coxa e Sobrecoxa Assada com Batata</h3>
+                        </div>
+                        <div>
+                            <img src="/img/coxa-e-sobrecoxa-assada-com-batata.webp" alt="Arroz de Couve Flor" class="imagem">
+                        </div>
+                        <div class="lista">
+                            <ul>
+                                <li>800 gramas de coxa e sobrecoxa de frango</li>
+                                <li>1 colher de sopa de páprica defumada</li>
+                                <li>4 colheres de sopa maionese</li>
+                                <li>1 colher de sopa de mostarda</li>
+                                <li>1 colher de chá de orégano</li>
+                                <li>1/2 colher de chá de açafrão</li>
+                                <li>2 dentes de alho amassado</li>
+                                <li>Sal a gosto</li>
+                                <li>Pimenta-do-reino a gosto</li>
+                                <li>2 a 3 batatas-inglesas (480 gramas)</li>
+                            </ul>
+                        </div>
+                        <hr class="quebraLinha">
+                        <div class="rodpeItem">
+                            <div class="titlePreparo">
+                                <h4>Modo de Preparo</h4>
+                                <button onclick="toggle2()" class="btnReceita">Abrir</button>
+                            </div>
+                            <div class="preparacao" id="preparacao-2">
+                                <ol>
+                                    <li>
+                                        Separe os ingredientes. Utilizamos o frango com pele, retirando apenas o excesso. Caso prefira, você pode remover toda a pele. Se o frango estiver congelado, deixe descongelar naturalmente na geladeira de um dia para o outro;
+                                    </li>
+                                    <li>
+                                        Coloque as coxas e sobrecoxas em uma tigela e tempere com páprica, maionese, mostarda, orégano, açafrão, alho, sal e pimenta-do-reino. Misture bem para cobrir todos os pedaços e deixe descansar por 1 a 2 horas. Quanto mais tempo marinar, mais saboroso ficará;
+                                    </li>
+                                    <li>
+                                        Descasque e corte as batatas em 6 pedaços. Leve uma panela com água ao fogo alto até ferver. Adicione as batatas e cozinhe por 4 minutos, ou até ficarem al dente. Cuidado para não cozinhar demais e as batatas desmancharem;
+                                    </li>
+                                    <li>
+                                        Acomode as coxas e sobrecoxas em uma assadeira ou refratário. Leve o frango ao forno preaquecido a 200 ºC por cerca de 1 hora;
+                                    </li>
+                                    <li>
+                                        Coloque as batatas na tigela onde temperou o frango para aproveitar os temperos restantes e temperar as batatas também;
+                                    </li>
+                                    <li>
+                                        Depois, adicione as batatas temperadas na assadeira e volte ao forno por mais 30 minutos ou até o frango dourar;
+                                    </li>
+                                    <li>
+                                        E está pronto! Aproveite essa delícia no almoço ou jantar com a família ou amigos. Sirva com arroz branco, salada de repolho e um suco de maracujá. Fica sensacional!
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orientation">
+                        <div class="tituloItem">
+                            <h3>Coxinha de Brigadeiro</h3>
+                        </div>
+                        <div>
+                            <img src="/img/panqueca-sem-leite.webp" alt="Arroz de Couve Flor" class="imagem">
+                        </div>
+                        <div class="lista">
+                            <ul>
+                                <li>3 ovos médios</li>
+                                <li>2 xícaras de chá de água (480 ml)</li>
+                                <li>2 xícaras de chá de farinha de trigo sem fermento (230 gramas)</li>
+                                <li>1 colher de sopa de óleo ou azeite de oliva</li>
+                                <li>1/2 colher de chá de sal (ou a gosto)</li>
+                            </ul>
+                        </div>
+                        <hr class="quebraLinha">
+                        <div class="rodpeItem">
+                            <div class="titlePreparo">
+                                <h4>Modo de Preparo</h4>
+                                <button onclick="toggle3()" class="btnReceita">Abrir</button>
+                            </div>
+                            <div class="preparacao" id="preparacao-3">
+                                <ol>
+                                    <li>
+                                        Reúna os ingredientes para fazer a melhor panqueca sem leite, para quem não pode comer lactose;
+                                    </li>
+                                    <li>
+                                        Quebre os ovos em um pote separado e verifique aspecto e cheiro. Se estiverem bons, adicione cada um deles em um liquidificador desligado. Junte a água, o azeite ou óleo, o sal e a farinha de trigo. Tampe o liquidificador e bata até ficar uma massa líquida;
+                                    </li>
+                                    <li>
+                                        Pare o liquidificador e utilize uma espátula para juntar a farinha das laterais na massa;
+                                    </li>
+                                    <li>
+                                        Utilize um pedaço de papel-toalha para espalhar o óleo ou azeite na frigideira antiaderente. Ligue o fogo médio e despeje uma concha da massa no centro dela;
+                                    </li>
+                                    <li>
+                                        Segure no cabo e faça movimentos circulares com a panela, para espalhar a massa e formar uma panqueca fina. Espere cerca de 40 segundos até ela ficar firme e começar a soltar as bordas;
+                                    </li>
+                                    <li>
+                                        Utilize uma espátula e vire para o outro lado até ela ficar douradinha ao seu gosto;
+                                    </li>
+                                    <li>
+                                        Sirva as panquecas fininhas com o recheio de sua preferência. Bom apetite!
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <footer style="margin-top: 20px;">
+        <span>©Jurema 2022</span>
+    </footer>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/verifica.js"></script>
+</body>
+</html>

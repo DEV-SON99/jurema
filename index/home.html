@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/formatos.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="orienta">
+        <header>
+            <div class="cabecalho">
+                <ul>
+                    <ol>
+                        <button onclick="navegar('home.html')" id="homeButton" class="btnheader">Home</button>
+                        <button onclick="navegar('receitas.html')" id="receitasButton" class="btnheader">Receitas</button>
+                        <button onclick="navegar('cadastro.html')" id="cadastroButton" class="btnheader">Cadastrar</button>
+                    </ol>
+                </ul>
+            </div>
+        </header>
+        <div class="container">
+            <div class="title">
+                <img src="/img/logotipo.jpg" alt="" class="imagemTitle">
+                <h1>Receitas da Tia Jurema</h1>
+            </div>
+            <div class="descricao">
+                <p class="paragrafo">
+                    Bem-Vindo(a) ao site da Tia Jurem.
+                </p>
+                <p class="paragrafo">Conheça deliciosas receitas para o dia a dia.</p>
+            </div>
+            <!-- ABA PARA CRIAR BOTÕES COM IMG PARA REDIRECIONAMENTO DE PÁGINA. -->
+            <div class="orientation">
+                <div class="previaUrl">
+                    <!-- Botão com link e imagem -->
+                    <a href="receitas.html" id="noBorderImg" class="image-button">
+                        <img src="/img/urlprevia.png" alt="Prévia da Outra Página">
+                        <span>Página de Receitas</span>
+                    </a>
+                </div>
+                <div class="previaUrl">
+                    <!-- Botão com link e imagem -->
+                    <a href="cadastro.html" id="noBorderImg" class="image-button">
+                        <img src="/img/imgcadastrar.png" alt="Prévia da Outra Página">
+                        <span>Página de Cadastro</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <span>©Jurema 2022</span>
+        </footer>
+    </div>
+    <script src="/js/app.js"></script>
+    <script src="/js/verifica.js"></script>
+</body>
+</html>

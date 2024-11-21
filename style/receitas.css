@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+.titulo {
+    align-self: center;
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orientation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    width: 400px;
+    background-color: rgb(95, 168, 95);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 80px;
+}
+
+.preparacao {
+    display: none;
+}
+
+.titlePreparo {
+    text-align: center;
+}
+
+.lista {
+    padding: 20px;
+}
+
+
+h3 {
+    margin: 15px;
+}
+
+.rodpeItem {
+    padding: 15px;
+}
+
+.quebraLinha {
+    align-self: center;
+    width: 100%;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.separator {
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(255, 175, 25, 0.801);
+}
+
+li {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #882;
+}
+
+.btnReceita {
+    padding: 4px 20px;
+    border-radius: 3px;
+    background-color: #8820;
+    cursor: pointer;
+}
+.btnReceita:hover {
+    background-color: #fff;
+    color: #4169E1;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .orientation {
+        width: 100%;
+        max-width: 300px;
+    }
+}
